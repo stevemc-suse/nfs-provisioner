@@ -43,7 +43,7 @@ spec:
   repo: https://kubernetes-sigs.github.io/nfs-subdir-external-provisioner
   targetNamespace: default
   set:
-    nfs.server: node-6.wiredquill.com
+    nfs.server: nfs.server.lab
     nfs.path: /share/k8s-data
     storageClass.name: nfs
 ```
